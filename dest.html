@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome back</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="grad">
+    <nav class="navbar">
+        <h1 class="logo" style="color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">JP Travels</h1>
+        <ul class="nav-links">
+            <li><a class="word" href="index.html">Home</a></li>
+            <li><a class="word" href="about.html">About</a></li>
+            <li class="active"><a class="word" href="#">Destination</a></li>
+            <li><a class="word" href="contact.html">Contact</a></li>
+            <!-- <li class="ctn"><a href="login.php">Login</a></li> -->
+        </ul>
+    </nav>
+
+    <section class="destinations">
+        <div class="title">
+            <h1>Welcome back JP</h1>
+            <div class="line"></div>
+        </div>
+        <div class="content">
+            <br>
+            <p>Since the launch of our services in 2024, we have served over 10,000 customers and operated over 100 tours.</p><br>
+            <p>Some of our best tour packages include</p>
+        </div>
+    </section>
+
+    <section class="events">
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="tn1.jpg" alt="">
+                <h4>Tour of Tamil Nadu</h4>
+                <p>15 day tour package visiting the most iconic and popular destinations of Tamil Nadu. Currently priced at Rs. 15,000</p>
+                <a href="index.html" class="ctn">Return</a>
+            </div>
+
+            <div class="col">
+                <img src="kl1.jpg" alt="">
+                <h4>Tour of Kerala</h4>
+                <p>14 day tour of the land of Kerala including accomodation in the boats on the backwaters of Alappuzha. Priced at Rs. 20,000</p>
+                <a href="index.html" class="ctn">Return</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="footer">
+        <p>JP Travels</p>
+        <p>Copyright ©; 2024, All Rights Reserved</p>
+    </section>
+
+    <script>
+        const menuBtn = document.querySelector('.menu-btn')
+        const navlinks = document.querySelector('.nav-links')
+
+        menuBtn.addEventListener('click',()=>{
+            navlinks.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+</html>

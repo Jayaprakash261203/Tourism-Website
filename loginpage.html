@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- navbar -->
+    <nav class="navbar">
+        <h1 class="logo" style="color: black; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">Tourism</h1>
+        <ul class="nav-links">
+            <li><a class="word" href="index.html">Home</a></li>
+            <li><a class="word" href="about.html">About</a></li>
+            <li><a class="word" href="destination.html">Destination</a></li>
+            <li><a class="word" href="contact.html">Contact</a></li>
+            <li class="ctn"><a class="word" href="book.html">Book</a></li>
+        </ul>
+    </nav>
+
+    <!-- Login Form -->
+    <section class="login-section">
+        <div class="login-container">
+            <h2>Login</h2>
+            <form action="/login" method="POST">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" required>
+                </div>
+                <button type="submit" class="login-btn">Login</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Copyright © 2022, All Rights Reserved</p>
+    </footer>
+</body>
+
+</html>
